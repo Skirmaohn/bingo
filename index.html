@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/para.js"></script>
+</head>
+
+<body>
+<!--Navi-->
+	<header>
+	
+		<h2><img src="img/logo.png" class="start"></h2>
+		
+		<nav>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#Charaktere">Charaktere</a></li>
+			<li><a href="#About" id="ff">Fun Facts </a></li>
+			<li><a href="#Zitate">Zitate</a></li>
+		</nav>
+	</header>
+
+
+	<section class="bild" id="Home">
+		<img src="img/Opening.jpg" width="600px" class="start"/>
+
+	</section>
+	<!--Fun Facts-->
+	<section class="fun-facts" id="About">
+		<h3 class="title">Fun Facts &uuml;ber Rick and Morty</h3>
+		<p>Rick and Morty wurde von den Autoren Justin Roiland und Dan Harmon kreiert</p>
+		
+
+		<ul class="grid">
+			<li>			
+				<h4>Synchronsprecher</h4>
+				<p>Rick und Morty werden von dem Autor Justin Roiland gesprochen</p>
+			</li>
+			<li>
+				<h4>Folgen</h4>
+				<p>31 Folgen auf 3 Staffeln verteilt</p>
+			</li>
+			<li>			
+				<h4>Brachten MC Donalds dazu ein 20 Jahre altes Produkt wieder einzuführen</h4>
+				<p>Die Szechuan Soße zur Premiere von Mulan</p>
+			</li>
+			<li class="breit">
+				<i></i>
+				<h4>Lieben es Fans zu Ärgern</h4>
+				<ul>
+				<li>Veröffentlichen am 1.April 2017 ohne Ankündigung die 1. Folge der 3. Staffel. mit folgenden Worten<br>
+				"What if I waved a magic wand and made the first episode from season three premiere tonight. Is that what you’d want?”
+				Unsurprisingly, the fan replied “Yes, that is exactly what I want, and everyone in the entire universe does too,” 
+				to which Harmon responded: <br>“happy now mother FUCKA”.</li>
+				<li>Veröffentlichen Folge 8 der 1 Staffel auf Instagramm in 109 15-Sekunden Clips Rückw&auml;rts</li>
+				</ul>
+			</li>
+			
+
+	</section>
+	<!--Charakterübersicht-->	
+	<section class="chars" id="Charaktere">
+	
+		<h3 class="title">Charakter&uuml;bersicht</h3>
+		<p> Wähl dir eine Person aus</p>		
+		<ul class="grid">
+			<li class="parallelogram" onmouseover="descr(this.id)"style="background-image: url(img/Rick.png);" id="Rick"></li>
+			<li class="parallelogram" onmouseover="descr(this.id)"style="background-image: url(img/Morty.jpg);" id='Morty'></li>
+			<li class="parallelogram" onmouseover="descr(this.id)"style="background-image: url(img/Summer.jpg);" id="Summer"></li>
+			<li class="parallelogram" onmouseover="descr(this.id)"style="background-image: url(img/Beth.png);" id="Beth"></li>
+			<li class="parallelogram" onmouseover="descr(this.id)"style="background-image: url(img/Jerry.png);" id="Jerry"></li>
+			<li class="parallelogram2" id="text"></li>
+		</ul>
+	</section>
+	<!--Zitate-->	
+	<section class="reviews" id="Zitate">
+		<h3 class="title">ZITATE</h3>
+
+		<div class="quote"> Ungewohnte Situationen können bedrohlich wirken. Du siehst dich um und es ist unheimlich und anders. Aber ihnen in's Gesicht zu sehen, sich ihnen zu stellen wie ein Stier, daran wachsen wir Menschen.</div>
+		<div class="author">Rick Sanchez</div>
+			<p>
+		<div class="quote">Eine Hochzeit ist wie eine Beerdigung mit Kuchen.</div>
+		<div class="author">Rick Sanchez</div>
+			<p>
+		<div class="quote">Wubba lubba dub dub!</div>
+		<div class="author">Rick Sanchez</div>
+
+	</section>
+
+	<footer>
+			<p> Projektarbeit der Technikerschule Erlangen </p>
+	</footer>
+
+</body>
+
+</html>
